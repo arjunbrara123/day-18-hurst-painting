@@ -17,6 +17,8 @@ s = Screen()
 # Initial Turtle Window graphics setup
 t.pensize(20)
 t.speed("fastest")
+t.hideturtle()
+s.delay(0)
 s.colormode(255)
 
 # Loop through all squares
